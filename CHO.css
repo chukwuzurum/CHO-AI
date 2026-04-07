@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f1220;
+  color: #e6e8f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.searchbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.searchbar input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #232743;
+  background: #15182b;
+  color: #e6e8f0;
+}
+
+.searchbar button {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #6c8cff, #00d4ff);
+  color: #0b0e1a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.answer {
+  background: #15182b;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.sources {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.source-card {
+  background: #12152a;
+  border: 1px solid #232743;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.source-title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.source-domain {
+  font-size: 13px;
+  color: #a9afc7;
+  margin-bottom: 8px;
+}
+
+.source-snippet {
+  font-size: 14px;
+  color: #cfd3e6;
+}
+
+.source-portrait {
+  font-size: 30px;
+  background-color: #0f1220;
+  transform: perspective(0 0 0 );
+}
